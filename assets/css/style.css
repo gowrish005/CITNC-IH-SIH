@@ -1,0 +1,698 @@
+:root {
+  --primary-purple: #8b5cf6;
+  --primary-blue: #3b82f6;
+  --primary-pink: #ec4899;
+  --dark-bg: #0f0f23;
+  --card-bg: rgba(15, 15, 35, 0.8);
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: linear-gradient(
+    135deg,
+    #0f0f23 0%,
+    #1e1b4b 25%,
+    #312e81 50%,
+    #1e1b4b 75%,
+    #0f0f23 100%
+  );
+  background-attachment: fixed;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Remove focus outline for all interactive elements */
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.focus-none:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Optional: Add custom focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(139, 92, 246, 0.5) !important;
+  outline-offset: 2px;
+}
+
+/* Mobile Header - Completely Hidden on Phones */
+@media (max-width: 767px) {
+  nav {
+    display: none !important;
+  }
+}
+
+/* Tablet Header */
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    position: relative !important;
+    top: auto !important;
+  }
+  
+  .header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+    flex: 1;
+  }
+  
+  .logo-circle {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .title-section {
+    min-width: 0;
+    flex: 1;
+  }
+  
+  .title-section h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .title-section p {
+    margin: 0;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .mobile-menu-button {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Desktop Header */
+@media (min-width: 1024px) {
+  nav {
+    position: fixed !important;
+    top: 0 !important;
+  }
+}
+
+/* Mobile Warning Popup Styles */
+#mobileWarningPopup {
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.3s ease-out;
+}
+
+#mobileWarningPopup .glass-card {
+  backdrop-filter: blur(15px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Mobile Warning Popup Button Styles */
+#mobileWarningPopup button {
+  min-height: 44px;
+  touch-action: manipulation;
+  transition: all 0.2s ease;
+}
+
+#mobileWarningPopup button:active {
+  transform: scale(0.98);
+}
+
+.hero-title {
+  font-family: "Orbitron", monospace;
+  background: linear-gradient(45deg, #8b5cf6, #3b82f6, #ec4899, #8b5cf6);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 3s ease-in-out infinite;
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.floating-particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: linear-gradient(45deg, #8b5cf6, #3b82f6);
+  border-radius: 50%;
+  animation: float 20s infinite linear;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.neon-glow {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5), 0 0 40px rgba(139, 92, 246, 0.3),
+    0 0 60px rgba(139, 92, 246, 0.1);
+}
+
+.hover-glow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4);
+  transition: all 0.3s ease;
+}
+
+.cyber-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.cyber-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #8b5cf6, transparent);
+  animation: slide 2s infinite;
+}
+
+@keyframes slide {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.theme-badge {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 92, 246, 0.2),
+    rgba(59, 130, 246, 0.2)
+  );
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.problem-card {
+  background: linear-gradient(
+    135deg,
+    rgba(15, 15, 35, 0.9),
+    rgba(30, 27, 75, 0.9)
+  );
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  transition: all 0.3s ease;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.problem-card:hover {
+  border-color: rgba(139, 92, 246, 0.8);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(139, 92, 246, 0.3);
+}
+
+.search-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(139, 92, 246, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.search-input:focus {
+  border-color: rgba(139, 92, 246, 0.8);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+/* Custom dropdown styling */
+select.search-input {
+  background: rgba(15, 15, 35, 0.9);
+  color: white;
+  cursor: pointer;
+}
+
+select.search-input option {
+  background: rgba(15, 15, 35, 0.95);
+  color: white;
+  padding: 8px 12px;
+  border: none;
+}
+
+select.search-input option:hover {
+  background: rgba(139, 92, 246, 0.3);
+}
+
+select.search-input option:checked {
+  background: rgba(139, 92, 246, 0.5);
+}
+
+.count-display {
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-backdrop .glass-card {
+  animation: slideUp 0.4s ease-out;
+}
+
+.modal-backdrop .close-btn {
+  transition: all 0.3s ease;
+}
+
+.modal-backdrop .close-btn:hover {
+  transform: rotate(90deg) scale(1.1);
+  color: #ef4444;
+}
+
+/* Enhanced modal scrollbar */
+.modal-backdrop .overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-backdrop .overflow-y-auto::-webkit-scrollbar-track {
+  background: rgba(30, 27, 75, 0.5);
+  border-radius: 4px;
+}
+
+.modal-backdrop .overflow-y-auto::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  border-radius: 4px;
+}
+
+.modal-backdrop .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #a855f7, #2563eb);
+}
+
+/* Prose enhancement for modal content */
+.prose p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+/* Enhanced cyber border animation */
+.cyber-border::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #8b5cf6, #3b82f6, #ec4899, #8b5cf6);
+  background-size: 400% 400%;
+  border-radius: inherit;
+  z-index: -1;
+  animation: gradient-shift 3s ease-in-out infinite;
+}
+
+.cyber-border::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--dark-bg);
+  border-radius: calc(1.5rem - 2px);
+  z-index: -1;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6, #ec4899);
+  z-index: 1000;
+  transition: width 0.3s ease;
+}
+
+/* Prevent text overlap and ensure smooth scrolling */
+section {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Ensure floating particles don't interfere with text */
+.floating-particles {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.particle {
+  pointer-events: none;
+}
+
+/* Mobile-specific optimizations and touch improvements */
+@media (max-width: 1023px) {
+  /* Mobile navigation - not sticky */
+  nav {
+    position: relative !important;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(139, 92, 246, 0.3);
+  }
+  
+  /* Better mobile navigation spacing */
+  nav .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  /* Ensure sections don't get hidden behind nav */
+  section {
+    scroll-margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .modal-backdrop .glass-card {
+    margin: 0.5rem;
+    max-height: 95vh;
+  }
+  
+  .modal-backdrop .overflow-y-auto {
+    max-height: calc(95vh - 200px);
+  }
+
+  /* Improved touch targets for mobile */
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+
+  /* Better spacing for mobile */
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  /* Mobile navigation improvements */
+  nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  /* Mobile menu styling */
+  #mobileMenu {
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 1rem 1rem;
+  }
+  
+  #mobileMenu a {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* Reduce particle count on mobile for performance */
+  .floating-particles .particle:nth-child(n+15) {
+    display: none;
+  }
+
+  /* Optimize animations for mobile */
+  .cyber-border::before {
+    display: none;
+  }
+
+  /* Better modal sizing on mobile */
+  .modal-backdrop {
+    padding: 0.5rem;
+  }
+
+  /* Fix modal footer layout on mobile */
+  .modal-backdrop .flex.space-x-3 {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .modal-backdrop .flex.space-x-3 > * {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Improved form elements for mobile */
+  input, select, textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  /* Stack cards better on small screens */
+  .grid {
+    gap: 0.75rem;
+  }
+
+  /* Better text sizing for mobile */
+  .text-xs {
+    font-size: 0.75rem;
+  }
+
+  /* Improve button padding for touch */
+  .glass-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens */
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  /* Even better touch targets */
+  button, a, input, select, textarea {
+    min-height: 48px;
+  }
+
+  /* Reduce padding for very small screens */
+  .glass-card {
+    padding: 0.75rem;
+  }
+
+  /* Stack everything vertically */
+  .flex {
+    flex-direction: column;
+  }
+
+  /* Better spacing */
+  .container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* Smaller text for very small screens */
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+
+  /* Hide complex animations on very small screens */
+  .pulse-ring, .animate-ping, .animate-pulse {
+    display: none !important;
+  }
+}
+
+/* Improved scrolling on iOS */
+.overflow-y-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Better tap highlights */
+* {
+  -webkit-tap-highlight-color: rgba(139, 92, 246, 0.3);
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* Mobile navigation improvements */
+@media (max-width: 1024px) {
+  nav .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+/* Touch-friendly interactions */
+@media (hover: none) and (pointer: coarse) {
+  .hover\:scale-105:hover {
+    transform: none;
+  }
+  
+  .hover\:bg-purple-500\/20:hover {
+    background-color: rgba(139, 92, 246, 0.2);
+  }
+  
+  /* Larger touch targets for mobile */
+  .mobile-touch {
+    padding: 12px 16px;
+    min-height: 48px;
+  }
+}
+
+/* Landscape orientation on mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  nav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero-title {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Focus improvements for accessibility */
+button:focus, a:focus, input:focus, select:focus, textarea:focus {
+  outline: 2px solid rgba(139, 92, 246, 0.6);
+  outline-offset: 2px;
+}
+
+/* Safe area for notched devices */
+@supports (padding: max(0px)) {
+  .safe-area-top {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+  
+  .safe-area-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}

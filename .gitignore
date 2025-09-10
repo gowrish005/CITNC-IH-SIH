@@ -1,0 +1,31 @@
+# Ignore temp folder and all its contents
+temp/
+
+# Common files to ignore
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Cache files
+.cache/
+*.cache
