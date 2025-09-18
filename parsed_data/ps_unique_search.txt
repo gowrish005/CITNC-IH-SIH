@@ -1,0 +1,318 @@
+SIH 2025 Problem Statements - Keyword Search Results
+============================================================
+Generated on: 2025-09-18 12:26:23
+Keywords searched: kolam, blockchain, quantum, space, ocean, marine, art, culture, heritage
+Results found: 52
+
+1. SIH25001
+   Title: Smart Community Health Monitoring and Early Warning System for Water-Borne Diseases in Rural Northeast India
+   Theme: MedTech / BioTech / HealthTech
+   Description: This problem statement proposes the development of a Smart Health Surveillance and Early Warning System that can detect, monitor, and help prevent outbreaks of water-borne diseases in vulnerable communities. The system can be: • Collect health data from local clinics, ASHA workers, and community vol...
+--------------------------------------------------------------------------------
+
+2. SIH25002
+   Title: Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID
+   Theme: MedTech / BioTech / HealthTech
+   Description: This problem statement proposes the development of a Smart Tourist Safety Monitoring & Incident Response System that leverages AI, Blockchain, and Geo-Fencing technologies. The system should include: Digital Tourist ID Generation Platform • A secure blockchain-based system that issues digital IDs to...
+--------------------------------------------------------------------------------
+
+3. SIH25003
+   Title: Low-Cost smart transportation solution for Agri produce from remote farms to nearest motorable road in NER Region
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: This problem statement proposes the design and development of prefabricated modular road panels that use bamboo reinforcement and plastic waste-infused composites to build durable, erosion-resistant roads in remote and hilly areas. The solution may be: • Utilize bamboo mesh or strips as structural r...
+--------------------------------------------------------------------------------
+
+4. SIH25005
+   Title: lmage based Animal Type Classification for cattle and buffaloes
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Background: In dairy farming, evaluating the body structure of animals is vital to predict their longevity, productivity, and reproductive efficiency. Traditionally, Animal Type Classification (ATC)—which involves scoring animals for physical traits—is conducted by trained personnel through visual i...
+--------------------------------------------------------------------------------
+
+5. SIH25006
+   Title: Development of a Digital Farm Management Portal for lmplementing Biosecurity
+   Theme: MedTech / BioTech / HealthTech
+   Description: Background Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors, where disease outbreaks such as Avian Influenza and African Swine Fever can cause significant economic losses, threaten food security, and disrupt rural livelihoods. Despite its importan...
+--------------------------------------------------------------------------------
+
+6. SIH25008
+   Title: Disaster Preparedness and Response Education System for Schools and Colleges
+   Theme: Smart Education
+   Description: Problem Description In India, schools and colleges are often unprepared for natural disasters such as earthquakes, floods, and fires. While emergency guidelines exist on paper, there is a lack of structured disaster management education integrated into the curriculum. Institutions lack digital tools...
+--------------------------------------------------------------------------------
+
+7. SIH25010
+   Title: Smart Crop Advisory System for Small and Marginal Farmers
+   Theme: MedTech / BioTech / HealthTech
+   Description: Problem Description A majority of small and marginal farmers in India rely on traditional knowledge, local shopkeepers, or guesswork for crop selection, pest control, and fertilizer use. They lack access to personalized, real-time advisory services that account for soil type, weather conditions, and...
+--------------------------------------------------------------------------------
+
+8. SIH25011
+   Title: Smart Curriculum Activity & Attendance App
+   Theme: Smart Education
+   Description: Problem Description Many educational institutions still depend on manual attendance systems, which are time-consuming and error-prone. Teachers spend a significant portion of class time marking attendance, reducing valuable instructional hours. Additionally, students often waste free periods with un...
+--------------------------------------------------------------------------------
+
+9. SIH25015
+   Title: Intelligent Pesticide Sprinkling System Determined by the Infection Level of a Plant
+   Theme: MedTech / BioTech / HealthTech
+   Description: Problem Description Excessive and indiscriminate application of pesticides in agriculture creates soil degradation, water contamination, damage to useful insects, and health risks for humans and animals. Regardless of whether the plant is healthy or infected, traditional pesticide spraying methods a...
+--------------------------------------------------------------------------------
+
+10. SIH25022
+   Title: Maximizing Section Throughput Using Al-Powered Precise Train Traffic Control
+   Theme: Travel & Tourism
+   Description: Background Indian Railways manages train movements primarily through the experience of train traffic controllers. While effective, this manual approach faces limitations as network congestion and operational complexity grow. Trains of varying types and priorities must share limited track infrastruct...
+--------------------------------------------------------------------------------
+
+11. SIH25024
+   Title: Comprehensive Cloud-Based Practice Management & Nutrient Analysis Software for Ayurvedic Dietitians, Tailored for Ayurveda-Focused Diet Plans
+   Theme: MedTech / BioTech / HealthTech
+   Description: Background Currently, in Ayurvedic hospitals, diet charts are prescribed manually by doctors in handwritten form, tailored to each patient’s needs. Existing software solutions primarily focus on macro- and micro-nutrient tracking but fail to align with Ayurvedic nutritional concepts. This gap create...
+--------------------------------------------------------------------------------
+
+12. SIH25027
+   Title: Develop a blockchain-based system for botanical traceability of Ayurvedic herbs, including geo-tagging from the point of collection (farmers/wild collectors) to the final Ayurvedic formulation label.
+   Theme: MedTech / BioTech / HealthTech
+   Description: Background The Ayurvedic herbal supply chain in India is characterised by fragmented networks of smallholder farmers, wild collectors and multiple intermediaries, leading to challenges in ensuring consistent quality, authenticity and sustainable sourcing of medicinal plants. Variations in harvesting...
+--------------------------------------------------------------------------------
+
+13. SIH25028
+   Title: Smart Classroom & Timetable Scheduler
+   Theme: Smart Education
+   Description: Background Higher Education institutions often face challenges in efficient class scheduling due to limited infrastructure, faculty constraints, elective courses, and overlapping departmental requirements. Manual timetable preparation leads to frequent clashes in classes, underutilized classrooms, u...
+--------------------------------------------------------------------------------
+
+14. SIH25032
+   Title: Development of a Smart Digital Platform to Promote Eco & Cultural Tourism in Jharkhand
+   Theme: Travel & Tourism
+   Description: Background Jharkhand is blessed with natural beauty, tribal culture, historical landmarks, and eco-tourism hotspots like Netarhat, Patratu, Betla National Park, Hundru Falls, and Deoghar. However, despite its vast potential, the state's tourism industry remains underdeveloped due to a lack of digita...
+--------------------------------------------------------------------------------
+
+15. SIH25033
+   Title: Al-Based Smart Allocation Engine for PM Internship Scheme
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Background The PM Internship Scheme enables students to gain industry exposure through structured internships. However, matching thousands of applicants with the most suitable opportunities remains a challenge, often leading to suboptimal selections and delays. Description The problem envisages a sm...
+--------------------------------------------------------------------------------
+
+16. SIH25036
+   Title: Development of Sensor for Detection Of Microplastics
+   Theme: MedTech / BioTech / HealthTech
+   Description: Background Microplastics — plastic particles less than 5 mm in size — have emerged as a global environmental threat, contaminating oceans, freshwater systems, and even drinking water. These particles originate from the degradation of larger plastics or from microbeads in consumer products. Their per...
+--------------------------------------------------------------------------------
+
+17. SIH25037
+   Title: Development of a low-cost camera-based automated beach sand grain size mapping system
+   Theme: Smart Automation
+   Description: Background Grain size is a fundamental property used to classify beach types and plays a critical role in influencing coastal morphodynamic processes. However, measuring grain size is particularly challenging, as it requires scientists to visit each site to collect sediment samples. These samples mu...
+--------------------------------------------------------------------------------
+
+18. SIH25038
+   Title: Blockchain-Based Blue Carbon Registry and MRV System
+   Theme: Blockchain & Cybersecurity
+   Description: Background Blue carbon ecosystem restoration is gaining importance in India’s climate strategy. However, there is no decentralized, verifiable Monitoring, Reporting, and Verification (MRV) system that ensures transparency, accuracy, and carbon credit generation. Description Participants are to desig...
+--------------------------------------------------------------------------------
+
+19. SIH25039
+   Title: Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics
+   Theme: Disaster Management
+   Description: About INCOIS The Indian National Centre for Ocean Information Services (INCOIS), operating under the administrative control of the Ministry of Earth Sciences, provides ocean information and advisory services to support disaster risk reduction and ensure maritime safety for coastal stakeholders. Its ...
+--------------------------------------------------------------------------------
+
+20. SIH25040
+   Title: FloatChat - AI-Powered Conversational Interface for ARGO Ocean Data Discovery and Visualization
+   Theme: Renewable / Sustainable Energy
+   Description: Background Oceanographic data is vast, complex, and heterogeneous – ranging from satellite observations to in-situ measurements like CTD casts, Argo floats, and BGC sensors. The Argo program, which deploys autonomous profiling floats across the world’s oceans, generates an extensive dataset in NetCD...
+--------------------------------------------------------------------------------
+
+21. SIH25041
+   Title: AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular
+   Theme: MedTech / BioTech / HealthTech
+   Description: About CMLRE CMLRE, Kochi, an attached office under the Ministry of Earth Sciences, plays a key role in organising and promoting ocean development activities in India, with a focus on mapping, assessing, and managing marine living resources in the Indian EEZ. The Marine Living Resources Programme sup...
+--------------------------------------------------------------------------------
+
+22. SIH25042
+   Title: Identifying Taxonomy and Assessing Biodiversity from eDNA Datasets
+   Theme: MedTech / BioTech / HealthTech
+   Description: Background The deep ocean, encompassing vast and remote ecosystems like abyssal plains, hydrothermal vents, and seamounts, harbors a significant portion of global biodiversity, much of which remains undiscovered due to its inaccessibility. Understanding deep-sea biodiversity is critical for elucidat...
+--------------------------------------------------------------------------------
+
+23. SIH25043
+   Title: Embedded Intelligent Microscopy System for Identification and Counting of Microscopic Marine Organisms
+   Theme: Smart Education
+   Description: Background Marine biodiversity assessments rely significantly on microscopic analysis of planktonic organisms, including phytoplankton, zooplankton, and other microscopic marine life. Traditionally, counting and species identification require manual microscopic examination, which is labor-intensive,...
+--------------------------------------------------------------------------------
+
+24. SIH25045
+   Title: Blockchain-Based Supply Chain Transparency for Agricultural Produce
+   Theme: Blockchain & Cybersecurity
+   Description: Description Create a blockchain-based system to track agricultural produce from farm to consumer, ensuring transparency in pricing, quality, and origin. The solution should allow stakeholders (farmers, distributors, retailers) to verify transactions and reduce exploitation in the supply chain. Expec...
+--------------------------------------------------------------------------------
+
+25. SIH25046
+   Title: Smart Waste Segregation and Recycling System
+   Theme: Smart Education
+   Description: Description Design an IoT-enabled waste segregation system using sensors and machine learning to automatically classify household waste (organic, recyclable, hazardous) at the source. The system should integrate with municipal waste management for efficient collection and recycling. Expected Outcome...
+--------------------------------------------------------------------------------
+
+26. SIH25047
+   Title: Disaster Response Drone for Remote Areas
+   Theme: MedTech / BioTech / HealthTech
+   Description: Description Develop a drone-based system to deliver medical supplies and communication devices to remote areas during natural disasters (floods, earthquakes). The drone should use AI for real-time navigation and obstacle avoidance, with a payload capacity of at least 5 kg. Expected Outcome A working...
+--------------------------------------------------------------------------------
+
+27. SIH25050
+   Title: Smart Traffic Management Systern for Urban Congestion
+   Theme: Smart Education
+   Description: Description Design an AI-based traffic management system to optimize signal timings and reduce congestion in urban areas. The system should analyze real-time traffic data from cameras and IoT sensors to predict and mitigate bottlenecks. Expected Outcome A software prototype reducing average commute ...
+--------------------------------------------------------------------------------
+
+28. SIH25052
+   Title: AR-Based Cultural Heritage Preservation Platform
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Description Create an augmented reality (AR) platform to digitize and preserve India's cultural heritage sites, allowing users to experience virtual tours with historical narratives. The platform should support low-bandwidth access for rural users. Expected Outcome An AR app with 3D models of at lea...
+--------------------------------------------------------------------------------
+
+29. SIH25055
+   Title: Automated Specimen Preparation System for testing of Cable samples as per IS 10810 and IS 7098.
+   Theme: Smart Automation
+   Description: Background Accurate and consistent preparation of cable specimens is vital for reliable testing according to Indian Standards like IS 10810 (Parts 2, 7, 33) and IS 7098 (Parts 1 & 2). These tests, including conductor resistance, insulation/sheath thickness, and flame retardance, are crucial for ensu...
+--------------------------------------------------------------------------------
+
+30. SIH25056
+   Title: To explore new/altermative assaying methods to the fire assay method for testing of gold jewellery and artefacts through non-destructive testing
+   Theme: Renewable / Sustainable Energy
+   Description: Background: Hallmarking is the accurate determination and official recording of the proportionate content of precious metal in the jewellery/artefacts or bullion/coins. The hallmarking of gold jewellery was started in year 2000 and has been made mandatory since 23 June 2021 and presently covers 361 ...
+--------------------------------------------------------------------------------
+
+31. SIH25058
+   Title: Detection and Prevention of Tampering in Weighing and Measuring instruments
+   Theme: MedTech / BioTech / HealthTech
+   Description: Background Weighing and measuring instruments are critical components in trade, industry, health, agriculture, and public safety. They ensure fair transactions and consumer trust when used accurately. However, tampering with such instruments, especially digital weighing scales, fuel dispensers, wate...
+--------------------------------------------------------------------------------
+
+32. SIH25061
+   Title: Digitize and Showcase Monasteries of Sikkim for Tourism and Cultural Preservation
+   Theme: Travel & Tourism
+   Description: Background Sikkim is home to over 200 monasteries, many of which date back to the 17th and 18th centuries. These monasteries are rich in history, architecture, and spiritual significance. While some efforts have been made to preserve murals and digitize rare documents, there is no unified digital pl...
+--------------------------------------------------------------------------------
+
+33. SIH25062
+   Title: Implementation of Smart Agriculture for Efficient Cultivation in Hilly Regions
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Background The agricultural region of Jorethang in South Sikkim experiences harsh, rainless summers and frequent water scarcity, making traditional irrigation unreliable and inefficient. Farmers struggle to provide adequate water to crops, often leading to reduced yields and wasted resources. With c...
+--------------------------------------------------------------------------------
+
+34. SIH25064
+   Title: Improving the Renewable Energy hosting capacity in Distribution Feeders improving the Power quality of Distribution network during high RE injection
+   Theme: Renewable / Sustainable Energy
+   Description: Background Kerala has a large penetration of Roof Top Solar PV systems amounting to nearly 1500 MW. These systems are connected to low voltage distribution feeders either in single-phase or three-phase mode. A majority of the systems are below 5 kW and hence get connected in single-phase, which caus...
+--------------------------------------------------------------------------------
+
+35. SIH25065
+   Title: Designing and development of an application for on spot assessment of Roof Top Rain water harvesting and artificial recharge potential and size of the RTRWH and AR.
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Background Groundwater replenishment is a critical factor for the augmentation and sustainability of water resources in the country. There is significant potential in both rural and urban areas for harvesting rainwater from individual rooftops. The Central Ground Water Board (CGWB) has published sev...
+--------------------------------------------------------------------------------
+
+36. SIH25066
+   Title: Development of an Al-driven ChatBOT for INGRES as a virtuall assistant
+   Theme: Renewable / Sustainable Energy
+   Description: Background The Assessment of Dynamic Ground Water Resources of India is conducted annually by the Central Ground Water Board (CGWB) and State/UT Ground Water Departments, under the coordination of the Central Level Expert Group (CLEG), DoWR, RD & GR, MoJS. The assessment uses a GIS-based web applica...
+--------------------------------------------------------------------------------
+
+37. SIH25070
+   Title: Secure Data Wiping for Trustworthy IT Asset Recycling
+   Theme: Clean & Green Technology
+   Description: Design and prototype a secure, cross-platform data wiping application that works on Windows, Linux, and Android devices. The tool must: - Securely erase all user data, including hidden storage areas like HPA/DCO and SSD sectors. - Generate a digitally signed, tamper-proof wipe certificate (in PDF an...
+--------------------------------------------------------------------------------
+
+38. SIH25073
+   Title: Al-Powered Mobile Platform for Democratizing Sports Talent Assessment
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Background Identifying and assessing athletic talent in a country as vast and diverse as India is a significant challenge. Aspiring athletes, particularly from rural and remote areas, often lack access to standardized assessment facilities or opportunities to showcase their talent. The absence of re...
+--------------------------------------------------------------------------------
+
+39. SIH25081
+   Title: AI-Driven Train Induction Planning & Scheduling for Kochi Metro Rail Limited (KMRL)
+   Theme: Smart Education
+   Description: Kochi Metro must decide every night which of its 25 four-car trainsets will enter revenue service at dawn, which remain on standby, and which are held back in the Inspection Bay Line (IBL) for maintenance. The decision hinges on six inter-dependent variables:  1. Fitness Certificates – validity wind...
+--------------------------------------------------------------------------------
+
+40. SIH25083
+   Title: Digital Health Record Management System for migrant workers in Kerala aligned with sustainable development goals.
+   Theme: MedTech / BioTech / HealthTech
+   Description: Kerala hosts a significant migrant population lacking comprehensive health record systems. These individuals often serve as a carrier for infectious diseases, posing serious public health risks to local communities. A dedicated software solution for maintaining migrant health records would support S...
+--------------------------------------------------------------------------------
+
+41. SIH25084
+   Title: Earthquake stabilised dialysis system for patient safety during seismic events.
+   Theme: MedTech / BioTech / HealthTech
+   Description: India's substantial chronic kidney disease patient population relies on dialysis services available from sub divisional level hospitals to specialist Centres including mobile units. Current dialysis infrastructure lacks earthquake resistant technology, potentially resulting in treatment interruption...
+--------------------------------------------------------------------------------
+
+42. SIH25093
+   Title: Centralised Digital Platform for Comprehensive student activity record in HEIs
+   Theme: Smart Education
+   Description: Background: Despite increasing digitization in education, student achievements ranging from academic excellence to participation in curricular and extracurricular activities remain scattered across various departments or lost in paper-based records, in many colleges and universities. There is no cen...
+--------------------------------------------------------------------------------
+
+43. SIH25094
+   Title: One-Stop Personalized Career & Education Advisor
+   Theme: Smart Education
+   Description: Background The decline in student enrollment in government degree colleges is not a consequence of poor infrastructure or lack of teaching resources. At the heart of the problem lies a critical gap in awareness, most students and often their parents do not understand the importance of graduation, wh...
+--------------------------------------------------------------------------------
+
+44. SIH25097
+   Title: Research and develop a design on autonomous small precision focused machine for planting crops or weeding.
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Design an autonomous small precision focused machine for planting crops or weeding to automate the task of planting and weeding. These machines are particularly useful to optimize the crop production. It can be autonomous or remote-controlled. The machine needs to be lightweight and flexible for eas...
+--------------------------------------------------------------------------------
+
+45. SIH25099
+   Title: AI-powered monitoring of crop health, soil condition, and pest risks using multispectral/hyperspectral
+   Theme: MedTech / BioTech / HealthTech
+   Description: Agriculture faces growing threats from soil degradation, unpredictable weather, and pest outbreaks, leading to reduced yields and economic losses. Traditional monitoring methods are often delayed, labor-intensive, and lack precision. There is a need for a unified software platform that integrates re...
+--------------------------------------------------------------------------------
+
+46. SIH25100
+   Title: Accelerating High-Fidelity Road Network Modeling for Indian Traffic
+   Theme: Transportation & Logistics
+   Description: Urban traffic congestion in Indian cities is worsened by the limitations of current urban planning software, which often assumes ideal, well-maintained road conditions typical of developed countries. Such software fails to account for the unpredictable and nuanced realities of Indian roads—such as p...
+--------------------------------------------------------------------------------
+
+47. SIH25101
+   Title: Remote classroom for rural colleges
+   Theme: Agriculture, FoodTech & Rural Development
+   Description: Background: Rural diploma colleges often operate without subject Lecturers in various fields such as artificial intelligence, VLSI, or renewable energy. Students must rely on self-study material or travel to cities for coaching,deepening the urban-rural learning divide. Description: The challenge is...
+--------------------------------------------------------------------------------
+
+48. SIH25102
+   Title: AI-based drop-out prediction and counseling system
+   Theme: Smart Education
+   Description: Background: By the time term-end marks reveal failures, many struggling students have disengaged beyond recovery. Counsellors and mentors need a mechanism that surfaces risk indicators-faliing attendance, high number of attempts exhausted to pass a particular subject, reducing test scores-weeks earl...
+--------------------------------------------------------------------------------
+
+49. SIH25107
+   Title: Develop computer programs (in any language, preferably Python) to identify the design principles behind the Kolam designs and recreate the kolams.
+   Theme: Heritage & Culture
+   Description: Kolams (known by other narnes as muggu, rangoli and rangavalli) are significant cultural traditions of India, blending art, ingenuity, and culture. The designs vary by region, and the designs consist of grids of dots, with symmetry, repetition, and spatial reasoning embedded in them. The Kolam desig...
+--------------------------------------------------------------------------------
+
+50. SIH25202
+   Title: Blockchain-Based Digital Identity System for Rural Banking
+   Theme: Blockchain & Cybersecurity
+   Description: Create a secure blockchain-based digital identity verification system for rural banking services, enabling farmers and rural citizens to access financial services without traditional documentation....
+--------------------------------------------------------------------------------
+
+51. SIH25203
+   Title: Smart Water Quality Monitoring System for Rural Areas
+   Theme: Clean & Green Technology
+   Description: Design a low-cost IoT-based water quality monitoring system that can continuously monitor pH, turbidity, bacterial contamination, and chemical pollutants in rural water sources....
+--------------------------------------------------------------------------------
+
+52. SIH25204
+   Title: AI-Based Early Warning System for Natural Disasters
+   Theme: Disaster Management
+   Description: Develop an AI-powered early warning system that can predict natural disasters like floods, earthquakes, and cyclones using satellite data, weather patterns, and ground sensors....
+--------------------------------------------------------------------------------
+

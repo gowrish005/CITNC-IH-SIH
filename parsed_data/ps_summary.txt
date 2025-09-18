@@ -1,0 +1,853 @@
+SIH 2025 Problem Statements Summary
+==================================================
+Generated on: 2025-09-18 12:26:23
+Total Problems: 106
+
+1. SIH25001
+   Title: Smart Community Health Monitoring and Early Warning System for Water-Borne Diseases in Rural Northeast India
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Development of North Eastern Region
+   Description: This problem statement proposes the development of a Smart Health Surveillance and Early Warning System that can detect, monitor, and help prevent outbreaks of water-borne diseases in vulnerable commu...
+--------------------------------------------------------------------------------
+
+2. SIH25002
+   Title: Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Development of North Eastern Region
+   Description: This problem statement proposes the development of a Smart Tourist Safety Monitoring & Incident Response System that leverages AI, Blockchain, and Geo-Fencing technologies. The system should include: ...
+--------------------------------------------------------------------------------
+
+3. SIH25003
+   Title: Low-Cost smart transportation solution for Agri produce from remote farms to nearest motorable road in NER Region
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Hardware
+   Organization: Ministry of Development of North Eastern Region
+   Description: This problem statement proposes the design and development of prefabricated modular road panels that use bamboo reinforcement and plastic waste-infused composites to build durable, erosion-resistant r...
+--------------------------------------------------------------------------------
+
+4. SIH25004
+   Title: lmage based breed recognition for cattle and buffaloes of India
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Fisheries, Animal Husbandry & Dairying
+   Description: Background The Government of India is implementing the Bharat Pashudhan App (BPA) for systematic data recording of breeding, health, and nutrition of dairy animals. Field Level Workers (FLWs) are resp...
+--------------------------------------------------------------------------------
+
+5. SIH25005
+   Title: lmage based Animal Type Classification for cattle and buffaloes
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Ministry of Fisheries, Animal Husbandry & Dairying
+   Description: Background: In dairy farming, evaluating the body structure of animals is vital to predict their longevity, productivity, and reproductive efficiency. Traditionally, Animal Type Classification (ATC)—w...
+--------------------------------------------------------------------------------
+
+6. SIH25006
+   Title: Development of a Digital Farm Management Portal for lmplementing Biosecurity
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Fisheries, Animal Husbandry & Dairying
+   Description: Background Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors, where disease outbreaks such as Avian Influenza and African Swine Fever can cause sign...
+--------------------------------------------------------------------------------
+
+7. SIH25007
+   Title: Development of a Digital Farm Management Portal for Monitoring aximum
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Fisheries, Animal Husbandry & Dairying
+   Description: Background Antimicrobials are vital in ensuring animal health and productivity in modern livestock systems. However, inappropriate and excessive use of these drugs can result in antimicrobial residues...
+--------------------------------------------------------------------------------
+
+8. SIH25008
+   Title: Disaster Preparedness and Response Education System for Schools and Colleges
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description In India, schools and colleges are often unprepared for natural disasters such as earthquakes, floods, and fires. While emergency guidelines exist on paper, there is a lack of stru...
+--------------------------------------------------------------------------------
+
+9. SIH25009
+   Title: Gamified Environmental Education Platform for Schools and Colleges
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Despite the rising urgency of climate change and environmental degradation, environmental education remains largely theoretical in many Indian schools and colleges. Students are of...
+--------------------------------------------------------------------------------
+
+10. SIH25010
+   Title: Smart Crop Advisory System for Small and Marginal Farmers
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description A majority of small and marginal farmers in India rely on traditional knowledge, local shopkeepers, or guesswork for crop selection, pest control, and fertilizer use. They lack acc...
+--------------------------------------------------------------------------------
+
+11. SIH25011
+   Title: Smart Curriculum Activity & Attendance App
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Many educational institutions still depend on manual attendance systems, which are time-consuming and error-prone. Teachers spend a significant portion of class time marking attend...
+--------------------------------------------------------------------------------
+
+12. SIH25012
+   Title: Automated Attendance System for Rural Schools
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Many rural schools in India rely on manual attendance systems, which are time-consuming and prone to errors. Teachers spend significant time marking attendance, reducing instructio...
+--------------------------------------------------------------------------------
+
+13. SIH25013
+   Title: Real-Time Public Transport Tracking for Small Cities
+   Theme: Transportation & Logistics
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description In small cities and tier-2 towns, public transport systems lack real-time tracking, causing inconvenience to commuters who face unpredictable bus schedules. This leads to overcrowd...
+--------------------------------------------------------------------------------
+
+14. SIH25014
+   Title: Waste Segregation Monitoring System for Urban Local Bodies
+   Theme: Smart Automation
+   Category: Hardware
+   Organization: Government of Punjab
+   Description: Problem Description Urban local bodies struggle with improper waste segregation at the household level, leading to inefficiencies in waste processing and increased landfill burden. Despite awareness c...
+--------------------------------------------------------------------------------
+
+15. SIH25015
+   Title: Intelligent Pesticide Sprinkling System Determined by the Infection Level of a Plant
+   Theme: MedTech / BioTech / HealthTech
+   Category: Hardware
+   Organization: Government of Punjab
+   Description: Problem Description Excessive and indiscriminate application of pesticides in agriculture creates soil degradation, water contamination, damage to useful insects, and health risks for humans and anima...
+--------------------------------------------------------------------------------
+
+16. SIH25016
+   Title: Automated Student Attendance Monitoring and Analytics System for Colleges
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Attendance tracking in most colleges is still done manually, usually through roll calls or paper registers. This consumes valuable teaching time and often leads to errors such as i...
+--------------------------------------------------------------------------------
+
+17. SIH25017
+   Title: Digital Platform for Centralized Alumni Data Management and Engagement
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Most educational institutions do not have a reliable or centralized system to manage their alumni data. Once students graduate, their contact information, academic records, and car...
+--------------------------------------------------------------------------------
+
+18. SIH25018
+   Title: Telemedicine Access for Rural Healthcare in Nabha
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Nabha and its surrounding rural areas face significant healthcare challenges. The local Civil Hospital operates at less than 50% staff capacity, with only 11 doctors for 23 sanctio...
+--------------------------------------------------------------------------------
+
+19. SIH25019
+   Title: Digital Learning Platform for Rural School Students in Nabha
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Government of Punjab
+   Description: Problem Description Many government schools in Nabha and nearby rural areas lack updated computer infrastructure, reliable internet connectivity, and access to quality digital educational resources. T...
+--------------------------------------------------------------------------------
+
+20. SIH25020
+   Title: Development of indigenous contactless Integrated Track Monitoring Systems (ITMS) for Track Recording on Indian Railways
+   Theme: Smart Automation
+   Category: Hardware
+   Organization: Ministry of Railways
+   Description: Background Indian Railways employs Track Recording Cars (TRCs) for periodic assessment of track geometry to ensure safety, ride comfort, and operational efficiency. While some TRCs still use outdated,...
+--------------------------------------------------------------------------------
+
+21. SIH25021
+   Title: AI based development of Laser based QR Code marking on 'track fittings on Indian Railways'.
+   Theme: Smart Automation
+   Category: Hardware
+   Organization: Ministry of Railways
+   Description: Background Indian Railways procures about 10 crore Elastic Rail Clips, 5 crore liners, and 8.5 crore rail pads annually. There is currently no system for identification of these track fittings—i.e., e...
+--------------------------------------------------------------------------------
+
+22. SIH25022
+   Title: Maximizing Section Throughput Using Al-Powered Precise Train Traffic Control
+   Theme: Travel & Tourism
+   Category: Software
+   Organization: Ministry of Railways
+   Description: Background Indian Railways manages train movements primarily through the experience of train traffic controllers. While effective, this manual approach faces limitations as network congestion and oper...
+--------------------------------------------------------------------------------
+
+23. SIH25023
+   Title: AyurSutra- Panchakarma Patient Management and therapy scheduling Software
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Ayush
+   Description: Background:- Panchakarma is gaining global recognition for detoxification, rejuvenation, and chronic disease management, contributing significantly to the projected USD 16 billion Ayurveda market by 2...
+--------------------------------------------------------------------------------
+
+24. SIH25024
+   Title: Comprehensive Cloud-Based Practice Management & Nutrient Analysis Software for Ayurvedic Dietitians, Tailored for Ayurveda-Focused Diet Plans
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Ayush
+   Description: Background Currently, in Ayurvedic hospitals, diet charts are prescribed manually by doctors in handwritten form, tailored to each patient’s needs. Existing software solutions primarily focus on macro...
+--------------------------------------------------------------------------------
+
+25. SIH25025
+   Title: E tongue for Dravya identification
+   Theme: Smart Education
+   Category: Hardware
+   Organization: Ministry of Ayush
+   Description: Background In Ayurveda and other traditional medicine systems, Rasa (taste) is a fundamental criterion for identifying, classifying, and determining the therapeutic value of medicinal herbs. While thi...
+--------------------------------------------------------------------------------
+
+26. SIH25026
+   Title: Develop API code to integrate NAMASTE and or the International Classification of Diseases (ICD-11) via the Traditional Medicine Module 2 (TM2) into existing EMR systems that comply with Electronic Hea...
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Ayush
+   Description: Background India’s Ayush sector is rapidly transitioning from paper-based records to interoperable digital health systems. Central to this transformation are two key coding systems: the National AYUSH...
+--------------------------------------------------------------------------------
+
+27. SIH25027
+   Title: Develop a blockchain-based system for botanical traceability of Ayurvedic herbs, including geo-tagging from the point of collection (farmers/wild collectors) to the final Ayurvedic formulation label.
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Ayush
+   Description: Background The Ayurvedic herbal supply chain in India is characterised by fragmented networks of smallholder farmers, wild collectors and multiple intermediaries, leading to challenges in ensuring con...
+--------------------------------------------------------------------------------
+
+28. SIH25028
+   Title: Smart Classroom & Timetable Scheduler
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Jharkhand
+   Description: Background Higher Education institutions often face challenges in efficient class scheduling due to limited infrastructure, faculty constraints, elective courses, and overlapping departmental requirem...
+--------------------------------------------------------------------------------
+
+29. SIH25029
+   Title: Authenticity Validator for Academia
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Jharkhand
+   Description: Background With increasing digitization, the problem of fake degrees and forged academic certificates has become a major concern for higher education institutions, employers, and government bodies. Ca...
+--------------------------------------------------------------------------------
+
+30. SIH25030
+   Title: Al-Based Crop Recommendation for Farmers
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Jharkhand
+   Description: Background Farmers often face challenges in accessing timely, personalized, and accurate agricultural support. Language barriers, lack of technical knowledge, and limited reach of conventional advisor...
+--------------------------------------------------------------------------------
+
+31. SIH25031
+   Title: Crowdsourced Civic lssue Reporting and Resolution System
+   Theme: Renewable / Sustainable Energy
+   Category: Software
+   Organization: Government of Jharkhand
+   Description: Background Local governments often face challenges in promptly identifying, prioritizing, and resolving everyday civic issues like potholes, malfunctioning streetlights, or overflowing trash bins. Whi...
+--------------------------------------------------------------------------------
+
+32. SIH25032
+   Title: Development of a Smart Digital Platform to Promote Eco & Cultural Tourism in Jharkhand
+   Theme: Travel & Tourism
+   Category: Software
+   Organization: Government of Jharkhand
+   Description: Background Jharkhand is blessed with natural beauty, tribal culture, historical landmarks, and eco-tourism hotspots like Netarhat, Patratu, Betla National Park, Hundru Falls, and Deoghar. However, des...
+--------------------------------------------------------------------------------
+
+33. SIH25033
+   Title: Al-Based Smart Allocation Engine for PM Internship Scheme
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Ministry of Corporate Affairs
+   Description: Background The PM Internship Scheme enables students to gain industry exposure through structured internships. However, matching thousands of applicants with the most suitable opportunities remains a ...
+--------------------------------------------------------------------------------
+
+34. SIH25034
+   Title: Al-Based Internship Recommendation Engine for PM Internship Scheme
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Ministry of Corporate Affairs
+   Description: Background The PM Internship Scheme receives applications from youth across India, including rural areas, tribal districts, urban slums, and remote colleges. Many of these candidates are first-generat...
+--------------------------------------------------------------------------------
+
+35. SIH25035
+   Title: Sentiment analysis of comments received through E-consultation module
+   Theme: Smart Automation
+   Category: Software
+   Organization: Ministry of Corporate Affairs
+   Description: The draft document soliciting comments is made available for a specified period, during which any stakeholder may submit their observations either on the overall amendment or on specific provisions of...
+--------------------------------------------------------------------------------
+
+36. SIH25036
+   Title: Development of Sensor for Detection Of Microplastics
+   Theme: MedTech / BioTech / HealthTech
+   Category: Hardware
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: Background Microplastics — plastic particles less than 5 mm in size — have emerged as a global environmental threat, contaminating oceans, freshwater systems, and even drinking water. These particles ...
+--------------------------------------------------------------------------------
+
+37. SIH25037
+   Title: Development of a low-cost camera-based automated beach sand grain size mapping system
+   Theme: Smart Automation
+   Category: Hardware
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: Background Grain size is a fundamental property used to classify beach types and plays a critical role in influencing coastal morphodynamic processes. However, measuring grain size is particularly cha...
+--------------------------------------------------------------------------------
+
+38. SIH25038
+   Title: Blockchain-Based Blue Carbon Registry and MRV System
+   Theme: Blockchain & Cybersecurity
+   Category: Software
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: Background Blue carbon ecosystem restoration is gaining importance in India’s climate strategy. However, there is no decentralized, verifiable Monitoring, Reporting, and Verification (MRV) system that...
+--------------------------------------------------------------------------------
+
+39. SIH25039
+   Title: Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics
+   Theme: Disaster Management
+   Category: Software
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: About INCOIS The Indian National Centre for Ocean Information Services (INCOIS), operating under the administrative control of the Ministry of Earth Sciences, provides ocean information and advisory s...
+--------------------------------------------------------------------------------
+
+40. SIH25040
+   Title: FloatChat - AI-Powered Conversational Interface for ARGO Ocean Data Discovery and Visualization
+   Theme: Renewable / Sustainable Energy
+   Category: Software
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: Background Oceanographic data is vast, complex, and heterogeneous – ranging from satellite observations to in-situ measurements like CTD casts, Argo floats, and BGC sensors. The Argo program, which de...
+--------------------------------------------------------------------------------
+
+41. SIH25041
+   Title: AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: About CMLRE CMLRE, Kochi, an attached office under the Ministry of Earth Sciences, plays a key role in organising and promoting ocean development activities in India, with a focus on mapping, assessin...
+--------------------------------------------------------------------------------
+
+42. SIH25042
+   Title: Identifying Taxonomy and Assessing Biodiversity from eDNA Datasets
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: Background The deep ocean, encompassing vast and remote ecosystems like abyssal plains, hydrothermal vents, and seamounts, harbors a significant portion of global biodiversity, much of which remains u...
+--------------------------------------------------------------------------------
+
+43. SIH25043
+   Title: Embedded Intelligent Microscopy System for Identification and Counting of Microscopic Marine Organisms
+   Theme: Smart Education
+   Category: Hardware
+   Organization: Ministry of Earth Sciences (MoES)
+   Description: Background Marine biodiversity assessments rely significantly on microscopic analysis of planktonic organisms, including phytoplankton, zooplankton, and other microscopic marine life. Traditionally, c...
+--------------------------------------------------------------------------------
+
+44. SIH25044
+   Title: Al-Powered Crop Yield Prediction and Optimization
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Odisha
+   Description: Description Develop an AI-based platform to predict crop yields using historical agricultural data, weather patterns, and soil health metrics. The system should provide actionable recommendations for ...
+--------------------------------------------------------------------------------
+
+45. SIH25045
+   Title: Blockchain-Based Supply Chain Transparency for Agricultural Produce
+   Theme: Blockchain & Cybersecurity
+   Category: Software
+   Organization: Government of Odisha
+   Description: Description Create a blockchain-based system to track agricultural produce from farm to consumer, ensuring transparency in pricing, quality, and origin. The solution should allow stakeholders (farmers...
+--------------------------------------------------------------------------------
+
+46. SIH25046
+   Title: Smart Waste Segregation and Recycling System
+   Theme: Smart Education
+   Category: Hardware
+   Organization: Government of Odisha
+   Description: Description Design an IoT-enabled waste segregation system using sensors and machine learning to automatically classify household waste (organic, recyclable, hazardous) at the source. The system shoul...
+--------------------------------------------------------------------------------
+
+47. SIH25047
+   Title: Disaster Response Drone for Remote Areas
+   Theme: MedTech / BioTech / HealthTech
+   Category: Hardware
+   Organization: Government of Odisha
+   Description: Description Develop a drone-based system to deliver medical supplies and communication devices to remote areas during natural disasters (floods, earthquakes). The drone should use AI for real-time nav...
+--------------------------------------------------------------------------------
+
+48. SIH25048
+   Title: Gamified Learning Platform for Rural Education
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Government of Odisha
+   Description: Description Build a gamified digital platform to enhance learning outcomes for students in rural schools (grades 6-12), focusing on STEM subjects. The platform should use interactive games, multilingu...
+--------------------------------------------------------------------------------
+
+49. SIH25049
+   Title: Al-Driven Public Health Chatbot for Disease Awareness
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Odisha
+   Description: Description Create a multilingual AI chatbot to educate rural and semi-urban populations about preventive healthcare, disease symptoms, and vaccination schedules. The chatbot should integrate with gov...
+--------------------------------------------------------------------------------
+
+50. SIH25050
+   Title: Smart Traffic Management Systern for Urban Congestion
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Odisha
+   Description: Description Design an AI-based traffic management system to optimize signal timings and reduce congestion in urban areas. The system should analyze real-time traffic data from cameras and IoT sensors ...
+--------------------------------------------------------------------------------
+
+51. SIH25051
+   Title: Renewable Energy Monitoring System for Microgrids
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Hardware
+   Organization: Government of Odisha
+   Description: Description Develop an IoT-based monitoring system for solar or wind microgrids in rural areas, providing real-time data on energy generation, storage, and consumption. The system should alert users t...
+--------------------------------------------------------------------------------
+
+52. SIH25052
+   Title: AR-Based Cultural Heritage Preservation Platform
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Government of Odisha
+   Description: Description Create an augmented reality (AR) platform to digitize and preserve India's cultural heritage sites, allowing users to experience virtual tours with historical narratives. The platform shou...
+--------------------------------------------------------------------------------
+
+53. SIH25053
+   Title: Improved Onion storage technology for enhancing shelf life of onions
+   Theme: MedTech / BioTech / HealthTech
+   Category: Hardware
+   Organization: Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)
+   Description: Background The majority of the farmers in India store the onion in naturally ventilated storage structures. In such structures, onions are exposed to extreme temperatures and relative humidity, which ...
+--------------------------------------------------------------------------------
+
+54. SIH25054
+   Title: Automated High-Current Short-Circuit Test System for MCB to comply with IEC 60898-1:2015
+   Theme: Renewable / Sustainable Energy
+   Category: Hardware
+   Organization: Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)
+   Description: Background The safety of electrical installations hinges on reliable Miniature Circuit Breakers (MCBs). IEC 60898-1:2015 mandates rigorous short-circuit breaking capacity tests, crucial for ensuring M...
+--------------------------------------------------------------------------------
+
+55. SIH25055
+   Title: Automated Specimen Preparation System for testing of Cable samples as per IS 10810 and IS 7098.
+   Theme: Smart Automation
+   Category: Hardware
+   Organization: Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)
+   Description: Background Accurate and consistent preparation of cable specimens is vital for reliable testing according to Indian Standards like IS 10810 (Parts 2, 7, 33) and IS 7098 (Parts 1 & 2). These tests, inc...
+--------------------------------------------------------------------------------
+
+56. SIH25056
+   Title: To explore new/altermative assaying methods to the fire assay method for testing of gold jewellery and artefacts through non-destructive testing
+   Theme: Renewable / Sustainable Energy
+   Category: Hardware
+   Organization: Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)
+   Description: Background: Hallmarking is the accurate determination and official recording of the proportionate content of precious metal in the jewellery/artefacts or bullion/coins. The hallmarking of gold jewelle...
+--------------------------------------------------------------------------------
+
+57. SIH25057
+   Title: Automated Compliance Checker for Legal Metrology Declarations on E-Commerce Platforms
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Hardware
+   Organization: Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)
+   Description: Background: With the exponential growth of e-commerce in India and globally, the need to ensure accurate and legally compliant declarations on product listings has become more critical than ever. Unde...
+--------------------------------------------------------------------------------
+
+58. SIH25058
+   Title: Detection and Prevention of Tampering in Weighing and Measuring instruments
+   Theme: MedTech / BioTech / HealthTech
+   Category: Hardware
+   Organization: Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)
+   Description: Background Weighing and measuring instruments are critical components in trade, industry, health, agriculture, and public safety. They ensure fair transactions and consumer trust when used accurately....
+--------------------------------------------------------------------------------
+
+59. SIH25059
+   Title: Enhancing Student Awareness on difference between Aadhaar linked and Direct Beneficiary Transfer(DBT) enabled Aadhaar seeded bank account.
+   Theme: Smart Education
+   Category: Software
+   Organization: Ministry of Social Justice & Empowerment (MoSJE)
+   Description: Background SCD-V Division, DoSJE implements Centrally sponsored schemes 'Pre-Matric scholarships schemes for SCs & Others' and 'Post-Matric scholarships schemes for SC students'. The entire scholarshi...
+--------------------------------------------------------------------------------
+
+60. SIH25060
+   Title: Real life solutions for Waste Management.
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Social Justice & Empowerment (MoSJE)
+   Description: Background In FY 2021–22, India generated approximately 1.7 lakh tonnes of municipal solid waste daily, of which only 54% was scientifically treated. Around 24% was dumped in landfills and 22% remaine...
+--------------------------------------------------------------------------------
+
+61. SIH25061
+   Title: Digitize and Showcase Monasteries of Sikkim for Tourism and Cultural Preservation
+   Theme: Travel & Tourism
+   Category: Software
+   Organization: Government of Sikkim
+   Description: Background Sikkim is home to over 200 monasteries, many of which date back to the 17th and 18th centuries. These monasteries are rich in history, architecture, and spiritual significance. While some e...
+--------------------------------------------------------------------------------
+
+62. SIH25062
+   Title: Implementation of Smart Agriculture for Efficient Cultivation in Hilly Regions
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Hardware
+   Organization: Government of Sikkim
+   Description: Background The agricultural region of Jorethang in South Sikkim experiences harsh, rainless summers and frequent water scarcity, making traditional irrigation unreliable and inefficient. Farmers strug...
+--------------------------------------------------------------------------------
+
+63. SIH25063
+   Title: Developing a cost effective solution for detecting the breakage of Low Voltage AC Distribution Over Head conductors
+   Theme: Smart Automation
+   Category: Hardware
+   Organization: Government of Kerala
+   Description: Background A cost-effective solution is required for detecting the breakage of Low Voltage AC Distribution Over Head conductors towards isolating the source of supply to prevent hazardous electric sho...
+--------------------------------------------------------------------------------
+
+64. SIH25064
+   Title: Improving the Renewable Energy hosting capacity in Distribution Feeders improving the Power quality of Distribution network during high RE injection
+   Theme: Renewable / Sustainable Energy
+   Category: Hardware
+   Organization: Government of Kerala
+   Description: Background Kerala has a large penetration of Roof Top Solar PV systems amounting to nearly 1500 MW. These systems are connected to low voltage distribution feeders either in single-phase or three-phas...
+--------------------------------------------------------------------------------
+
+65. SIH25065
+   Title: Designing and development of an application for on spot assessment of Roof Top Rain water harvesting and artificial recharge potential and size of the RTRWH and AR.
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Ministry of Jal Shakti
+   Description: Background Groundwater replenishment is a critical factor for the augmentation and sustainability of water resources in the country. There is significant potential in both rural and urban areas for ha...
+--------------------------------------------------------------------------------
+
+66. SIH25066
+   Title: Development of an Al-driven ChatBOT for INGRES as a virtuall assistant
+   Theme: Renewable / Sustainable Energy
+   Category: Software
+   Organization: Ministry of Jal Shakti
+   Description: Background The Assessment of Dynamic Ground Water Resources of India is conducted annually by the Central Ground Water Board (CGWB) and State/UT Ground Water Departments, under the coordination of the...
+--------------------------------------------------------------------------------
+
+67. SIH25067
+   Title: Proposal for Design and development of application or Heavy Metal Pollution indices
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Jal Shakti
+   Description: Background The presence of heavy metals in drinking water, even at trace levels, poses significant health risks, making accurate and timely assessment critical for public safety and environmental moni...
+--------------------------------------------------------------------------------
+
+68. SIH25068
+   Title: Real time Groundwater resource evaluation using DWLR data
+   Theme: Smart Automation
+   Category: Software
+   Organization: Ministry of Jal Shakti
+   Description: Background Groundwater is central to India's drinking, agricultural, and industrial water needs. Despite covering an area of 3.3 million square kilometers and being home to 16% of the global populatio...
+--------------------------------------------------------------------------------
+
+69. SIH25069
+   Title: Al-Driven Life Cycle Assessment (LCA) Tool for Advancing Circulanty and Sustainability in Metallurgy and Mining
+   Theme: Transportation & Logistics
+   Category: Software
+   Organization: Ministry of Mines
+   Description: There is a need to design an intuitive, AI-powered software platform that enables metallurgists, engineers, and decision-makers to perform automated LCAs for metals such as aluminium, copper, or criti...
+--------------------------------------------------------------------------------
+
+70. SIH25070
+   Title: Secure Data Wiping for Trustworthy IT Asset Recycling
+   Theme: Clean & Green Technology
+   Category: Software
+   Organization: Ministry of Mines
+   Description: Design and prototype a secure, cross-platform data wiping application that works on Windows, Linux, and Android devices. The tool must: - Securely erase all user data, including hidden storage areas l...
+--------------------------------------------------------------------------------
+
+71. SIH25071
+   Title: Al-Based Rockfall Prediction and Alert System for Open-Pit Mines
+   Theme: Smart Education
+   Category: Software
+   Organization: Ministry of Mines
+   Description: Background Rockfalls in open-pit mines pose a significant threat to both personnel and equipment, often resulting in serious injuries, operational delays, and financial loss. Traditional rockfall dete...
+--------------------------------------------------------------------------------
+
+72. SIH25072
+   Title: Design and Implementation of Solar-Powered Dewatering in Mining Operations.
+   Theme: Renewable / Sustainable Energy
+   Category: Hardware
+   Organization: Ministry of Mines
+   Description: Background The current dewatering system at our copper mining site relies heavily on electrically operated pumps, often supplemented by diesel generators during power outages. This traditional setup n...
+--------------------------------------------------------------------------------
+
+73. SIH25073
+   Title: Al-Powered Mobile Platform for Democratizing Sports Talent Assessment
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Ministry of Youth Affairs and Sports
+   Description: Background Identifying and assessing athletic talent in a country as vast and diverse as India is a significant challenge. Aspiring athletes, particularly from rural and remote areas, often lack acces...
+--------------------------------------------------------------------------------
+
+74. SIH25074
+   Title: AI-Powered Personal Farming Assistant for Kerala Farmers
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Government of Kerala
+   Description: Problem Kerala’s smallholder farmers often lack access to personalized, timely agricultural advice. Generic advisories fail to account for local crop choices, weather, soil conditions, or farming prac...
+--------------------------------------------------------------------------------
+
+75. SIH25075
+   Title: Gamified Platform to Promote Sustainable Farming Practices
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Kerala
+   Description: Problem Despite numerous awareness campaigns, many farmers still rely on unsustainable practices—excessive chemical use, over-irrigation, or mono-cropping—due to habit, lack of training, or limited en...
+--------------------------------------------------------------------------------
+
+76. SIH25076
+   Title: AI-Based Farmer Query Support and Advisory System
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Kerala
+   Description: Problem Farmers often face critical questions related to pests, weather, inputs, subsidies, and market trends—but timely expert advice is rarely accessible. Agri officers and helplines are overburdene...
+--------------------------------------------------------------------------------
+
+77. SIH25077
+   Title: A hardware that can detect and prevent unauthorized use of electric fences
+   Theme: Miscellaneous
+   Category: Hardware
+   Organization: Government of Kerala
+   Description: A hardware that can detect and prevent unauthorized use of electric fences
+--------------------------------------------------------------------------------
+
+78. SIH25079
+   Title: Software other than a circuit breaker that can be used to detect and turn off LT lines when the line breaks
+   Theme: Miscellaneous
+   Category: Software
+   Organization: Government of Kerala
+   Description: Problem Software other than a circuit breaker that can be used to detect and turn off LT lines when the line breaks.
+--------------------------------------------------------------------------------
+
+79. SIH25080
+   Title: Document Overload at Kochi Metro Rail Limited (KMRL)-An automated solution
+   Theme: Smart Automation
+   Category: Software
+   Organization: Government of Kerala
+   Description: Since its first commercial run in 2017, KMRL has grown into a complex, multidisciplinary enterprise that stretches far beyond train operations. Every business day the organization generates and receiv...
+--------------------------------------------------------------------------------
+
+80. SIH25081
+   Title: AI-Driven Train Induction Planning & Scheduling for Kochi Metro Rail Limited (KMRL)
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Kerala
+   Description: Kochi Metro must decide every night which of its 25 four-car trainsets will enter revenue service at dawn, which remain on standby, and which are held back in the Inspection Bay Line (IBL) for mainten...
+--------------------------------------------------------------------------------
+
+81. SIH25082
+   Title: Development of a travel related software app that can be installed on mobile phones that could capture trip related information
+   Theme: Travel & Tourism
+   Category: Software
+   Organization: Government of Kerala
+   Description: NATPAC is into transportation planning but accurate data collection is a tideous task. Household data collection using manual survey is also time consuming and does not cover even a small percentage o...
+--------------------------------------------------------------------------------
+
+82. SIH25083
+   Title: Digital Health Record Management System for migrant workers in Kerala aligned with sustainable development goals.
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Kerala
+   Description: Kerala hosts a significant migrant population lacking comprehensive health record systems. These individuals often serve as a carrier for infectious diseases, posing serious public health risks to loc...
+--------------------------------------------------------------------------------
+
+83. SIH25084
+   Title: Earthquake stabilised dialysis system for patient safety during seismic events.
+   Theme: MedTech / BioTech / HealthTech
+   Category: Hardware
+   Organization: Government of Kerala
+   Description: India's substantial chronic kidney disease patient population relies on dialysis services available from sub divisional level hospitals to specialist Centres including mobile units. Current dialysis i...
+--------------------------------------------------------------------------------
+
+84. SIH25085
+   Title: Solution for NON-REVENUE LOSS IN WATER SUPPLY
+   Theme: Clean & Green Technology
+   Category: Hardware
+   Organization: Government of Kerala
+   Description: Solution for NON-REVENUE LOSS IN WATER SUPPLY Solution to improve AWARENESS IN WATER CONSERVATION TREATMENT OF WASTE WATER AND REUSE FOR DOMESTIC PURPOSES
+--------------------------------------------------------------------------------
+
+85. SIH25090
+   Title: GREY WATER MANAGEMENT AND REUSE WET LAND MANAGEMENT
+   Theme: Miscellaneous
+   Category: Hardware
+   Organization: Government of Kerala
+   Description: GREY WATER MANAGEMENT AND REUSE WET LAND MANAGEMENT WATER CONSERVATION
+--------------------------------------------------------------------------------
+
+86. SIH25091
+   Title: AI-Based Timetable Generation System aligned with NEP 2020 for Multidisciplinary Education Structures
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Jammu and Kashmir
+   Description: Background: With the implementation of the National Education Policy (NEP) 2020, all higher education institutions-including Institutes of Teacher Education and general degree colleges-have transition...
+--------------------------------------------------------------------------------
+
+87. SIH25092
+   Title: Development of a Digital Mental Health and Psychological Support System for Students in Higher Education
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Government of Jammu and Kashmir
+   Description: Problem Statement: Context: Mental health issues among college students have significantly increased in recent years, including anxiety, depression, burnout, sleep disorders, academic stress, and soci...
+--------------------------------------------------------------------------------
+
+88. SIH25093
+   Title: Centralised Digital Platform for Comprehensive student activity record in HEIs
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Jammu and Kashmir
+   Description: Background: Despite increasing digitization in education, student achievements ranging from academic excellence to participation in curricular and extracurricular activities remain scattered across va...
+--------------------------------------------------------------------------------
+
+89. SIH25094
+   Title: One-Stop Personalized Career & Education Advisor
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Jammu and Kashmir
+   Description: Background The decline in student enrollment in government degree colleges is not a consequence of poor infrastructure or lack of teaching resources. At the heart of the problem lies a critical gap in...
+--------------------------------------------------------------------------------
+
+90. SIH25095
+   Title: Research and redesign a sport equipment commonly found in sport industry and utilize Fusion software to reimagine its design. Students can use Fusion Features such as Generative Design, Topology Optim...
+   Theme: Smart Education
+   Category: Hardware
+   Organization: Autodesk
+   Description: The student's focus should be on using Fusion's additive manufacturing capabilities. They should aim to learn about additive manufacturing and its applications in “sports equipment design”. This inclu...
+--------------------------------------------------------------------------------
+
+91. SIH25096
+   Title: • Students are supposed to use Fusion software to generate NC code with machine details & tool library for any industrial component.
+   Theme: Smart Education
+   Category: Hardware
+   Organization: Autodesk
+   Description: Computer-Aided Manufacturing (CAM) is the use of software and computer-controlled machinery to automate a manufacturing process. Based on that definition, you need three components for a CAM system to...
+--------------------------------------------------------------------------------
+
+92. SIH25097
+   Title: Research and develop a design on autonomous small precision focused machine for planting crops or weeding.
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Autodesk
+   Description: Design an autonomous small precision focused machine for planting crops or weeding to automate the task of planting and weeding. These machines are particularly useful to optimize the crop production....
+--------------------------------------------------------------------------------
+
+93. SIH25098
+   Title: Students are tasked with designing a 4-story commercial office building using Revit Architecture and  Revit Structure , ensuring effective integration between architectural and structural models in a ...
+   Theme: Smart Education
+   Category: Software
+   Organization: Autodesk
+   Description: The goal is to develop a coordinated, clash free, BIM model suitable for further use in MEP design, quantity take off, and construction documentation. To generate 2D structural drawings for various me...
+--------------------------------------------------------------------------------
+
+94. SIH25099
+   Title: AI-powered monitoring of crop health, soil condition, and pest risks using multispectral/hyperspectral
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: MathWorks India Pvt. Ltd.
+   Description: Agriculture faces growing threats from soil degradation, unpredictable weather, and pest outbreaks, leading to reduced yields and economic losses. Traditional monitoring methods are often delayed, lab...
+--------------------------------------------------------------------------------
+
+95. SIH25100
+   Title: Accelerating High-Fidelity Road Network Modeling for Indian Traffic
+   Theme: Transportation & Logistics
+   Category: Software
+   Organization: MathWorks India Pvt. Ltd.
+   Description: Urban traffic congestion in Indian cities is worsened by the limitations of current urban planning software, which often assumes ideal, well-maintained road conditions typical of developed countries. ...
+--------------------------------------------------------------------------------
+
+96. SIH25101
+   Title: Remote classroom for rural colleges
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Software
+   Organization: Government of Rajasthan
+   Description: Background: Rural diploma colleges often operate without subject Lecturers in various fields such as artificial intelligence, VLSI, or renewable energy. Students must rely on self-study material or tr...
+--------------------------------------------------------------------------------
+
+97. SIH25102
+   Title: AI-based drop-out prediction and counseling system
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Rajasthan
+   Description: Background: By the time term-end marks reveal failures, many struggling students have disengaged beyond recovery. Counsellors and mentors need a mechanism that surfaces risk indicators-faliing attenda...
+--------------------------------------------------------------------------------
+
+98. SIH25103
+   Title: ERP-based Integrated Student Management system
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Rajasthan
+   Description: Background: Admissions, fee collection, hostel allocation, and examination records are maintained in separate ledgers. Students queue at multiple counters; staff re-enter identical data; and administr...
+--------------------------------------------------------------------------------
+
+99. SIH25104
+   Title: Language Agnostic Chatbot
+   Theme: Smart Education
+   Category: Software
+   Organization: Government of Rajasthan
+   Description: Background: Campus offices answer hundreds of repetitive queries-fee deadlines, scholarship forms, timetable changes often from students more comfortable in Hindi or other regional languages. Long que...
+--------------------------------------------------------------------------------
+
+100. SIH25107
+   Title: Develop computer programs (in any language, preferably Python) to identify the design principles behind the Kolam designs and recreate the kolams.
+   Theme: Heritage & Culture
+   Category: Software
+   Organization: AICTE
+   Description: Kolams (known by other narnes as muggu, rangoli and rangavalli) are significant cultural traditions of India, blending art, ingenuity, and culture. The designs vary by region, and the designs consist ...
+--------------------------------------------------------------------------------
+
+101. SIH25108
+   Title: Development of AI-powered FRA Atlas and WebGIS-based Decision Support System (DSS) for Integrated Monitoring of Forest Rights Act (FRA) Implementation. (States to be concentrated: Madhya Pradesh, Tri...
+   Theme: MedTech / BioTech / HealthTech
+   Category: Software
+   Organization: Ministry of Tribal Affairs(MoTA)
+   Description: Problem Background : The Forest Rights Act (FRA), 2006 recognizes the rights of forest-dwelling communities over land and forest resources. However, significant challenges persist: • Legacy records of...
+--------------------------------------------------------------------------------
+
+102. SIH25201
+   Title: AI-Powered Crop Health Monitoring Using Drone Technology
+   Theme: Agriculture, FoodTech & Rural Development
+   Category: Hardware
+   Organization: Ministry of Agriculture and Farmers Welfare
+   Description: Develop an autonomous drone system equipped with AI-powered image recognition to monitor crop health, detect diseases, and provide real-time recommendations to farmers for optimal crop management.
+--------------------------------------------------------------------------------
+
+103. SIH25202
+   Title: Blockchain-Based Digital Identity System for Rural Banking
+   Theme: Blockchain & Cybersecurity
+   Category: Software
+   Organization: Reserve Bank of India
+   Description: Create a secure blockchain-based digital identity verification system for rural banking services, enabling farmers and rural citizens to access financial services without traditional documentation.
+--------------------------------------------------------------------------------
+
+104. SIH25203
+   Title: Smart Water Quality Monitoring System for Rural Areas
+   Theme: Clean & Green Technology
+   Category: Hardware
+   Organization: Ministry of Jal Shakti
+   Description: Design a low-cost IoT-based water quality monitoring system that can continuously monitor pH, turbidity, bacterial contamination, and chemical pollutants in rural water sources.
+--------------------------------------------------------------------------------
+
+105. SIH25204
+   Title: AI-Based Early Warning System for Natural Disasters
+   Theme: Disaster Management
+   Category: Software
+   Organization: National Disaster Management Authority
+   Description: Develop an AI-powered early warning system that can predict natural disasters like floods, earthquakes, and cyclones using satellite data, weather patterns, and ground sensors.
+--------------------------------------------------------------------------------
+
+106. SIH25205
+   Title: Gamified Learning Platform for Digital Literacy in Rural India
+   Theme: Smart Education
+   Category: Software
+   Organization: Ministry of Electronics and Information Technology
+   Description: Create an engaging, game-based learning platform to teach digital literacy skills to rural populations, including basic computer skills, internet safety, and digital financial services.
+--------------------------------------------------------------------------------
+
