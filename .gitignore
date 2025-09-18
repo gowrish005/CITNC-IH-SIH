@@ -29,3 +29,5 @@ build/
 # Cache files
 .cache/
 *.cache
+
+private/
