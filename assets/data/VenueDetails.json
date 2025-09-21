@@ -1,0 +1,192 @@
+{
+    "Seminar_Hall": {
+        "AuraTech": {
+            "team_lead": "Chandana k",
+            "ps_id": "SIH25061"
+        },
+        "Breed Spotters": {
+            "team_lead": "Chandini BM",
+            "ps_id": "SIH25005"
+        },
+        "Circuitronix": {
+            "team_lead": "Sowmya C Hukkeri",
+            "ps_id": "SIH25062"
+        },
+        "Code Brigade": {
+            "team_lead": "Pooja A",
+            "ps_id": "SIH25041"
+        },
+        "Coderz Gallexy": {
+            "team_lead": "Aneek Dey",
+            "ps_id": "SIH25013"
+        },
+        "DisasterX": {
+            "team_lead": "Shantala",
+            "ps_id": "SIH25008"
+        },
+        "GenNext": {
+            "team_lead": "Hansika M",
+            "ps_id": "SIH25016"
+        },
+        "Hackonauts": {
+            "team_lead": "Vyshnavi K. R",
+            "ps_id": "SIH25138"
+        },
+        "Infinite Loopers": {
+            "team_lead": "Sharanya M R",
+            "ps_id": "SIH25068"
+        },
+        "Koshin": {
+            "team_lead": "Sowmya Sharma",
+            "ps_id": "SIH25018"
+        },
+        "SIH 11": {
+            "team_lead": "Divya Raj",
+            "ps_id": "SIH25"
+        },
+        "Sadak Mitra": {
+            "team_lead": "Rudra Pratap Singh",
+            "ps_id": "SIH25031"
+        },
+        "SkyWalkers": {
+            "team_lead": "Varshitha Reddy S",
+            "ps_id": "SIH25201"
+        },
+        "Synap Tech": {
+            "team_lead": "Pooja M",
+            "ps_id": "SIH25024"
+        },
+        "Tesla": {
+            "team_lead": "Somnath",
+            "ps_id": "SIH25116"
+        }
+    },
+    "StartUp_Lab": {
+        "Aero Vision": {
+            "team_lead": "Abhishek M",
+            "ps_id": "SIH25134"
+        },
+        "BlueMarble": {
+            "team_lead": "Nishel Melita Moras",
+            "ps_id": "SIH25031"
+        },
+        "Code Crusaders": {
+            "team_lead": "Ashwin",
+            "ps_id": "SIH25"
+        },
+        "Cultural Impactors": {
+            "team_lead": "Divyashree P",
+            "ps_id": "SIH25130"
+        },
+        "Digital Dreamers": {
+            "team_lead": "R Madhavilatha",
+            "ps_id": "SIH25073"
+        },
+        "Dropout Shield": {
+            "team_lead": "Mohammad Sha",
+            "ps_id": "SIH25102"
+        },
+        "Hackathon Hackers": {
+            "team_lead": "Shrivalli. C",
+            "ps_id": "SIH25046"
+        },
+        "Hydro Smart": {
+            "team_lead": "Nanditha.M.K",
+            "ps_id": "SIH25090"
+        },
+        "Igniters": {
+            "team_lead": "Rajesha H M",
+            "ps_id": "SIH25128"
+        },
+        "Innoventures": {
+            "team_lead": "Ashrita Kanakagiri",
+            "ps_id": "SIH25071"
+        },
+        "Max Matrix": {
+            "team_lead": "Meenakshi S",
+            "ps_id": "SIH25027"
+        },
+        "Neuro Ninjas": {
+            "team_lead": "Varun Kumar B H",
+            "ps_id": "SIH25071"
+        },
+        "NeverMore": {
+            "team_lead": "Poornima KB",
+            "ps_id": "SIH25042"
+        },
+        "Rising Phoenix": {
+            "team_lead": "Pratham Mahendra Bhat",
+            "ps_id": "SIH25070"
+        },
+        "SmartEd Icons": {
+            "team_lead": "G Yashaswini",
+            "ps_id": "SIH25048"
+        },
+        "Vector Vision": {
+            "team_lead": "Poorvi Hattimattur",
+            "ps_id": "SIH25032"
+        }
+    },
+    "IOT_Lab": {
+        "BackTech": {
+            "team_lead": "M. Bhavana",
+            "ps_id": "SIH25114"
+        },
+        "Binary Bunch": {
+            "team_lead": "Ruchitha G A",
+            "ps_id": "SIH25008"
+        },
+        "Brain Wave solutions": {
+            "team_lead": "Sneha M",
+            "ps_id": "SIH25012"
+        },
+        "Chainspark": {
+            "team_lead": "Dhanya M P",
+            "ps_id": "SIH25027"
+        },
+        "EPICELECTRONS": {
+            "team_lead": "Yashaswini CK",
+            "ps_id": "SIH25183"
+        },
+        "Echoes of Sikkim": {
+            "team_lead": "Monisha M R",
+            "ps_id": "SIH25061"
+        },
+        "Impactware": {
+            "team_lead": "Shriya B U",
+            "ps_id": "SIH25131"
+        },
+        "Obsidian": {
+            "team_lead": "Samuel Lazar",
+            "ps_id": "SIH25001"
+        },
+        "Onion Vault": {
+            "team_lead": "Badveli Aishwarya",
+            "ps_id": "SIH25053"
+        },
+        "OutCast": {
+            "team_lead": "Shreya Dubey",
+            "ps_id": "SIH25050"
+        },
+        "ShieldMyTrip": {
+            "team_lead": "Aadhya M",
+            "ps_id": "SIH25002"
+        },
+        "Sky Hackers": {
+            "team_lead": "Teja Shree C",
+            "ps_id": "SIH25117"
+        },
+        "Syamparani": {
+            "team_lead": "Gowrish HB",
+            "ps_id": "SIH25042"
+        },
+        "Tech Titans": {
+            "team_lead": "MONICA B",
+            "ps_id": "SIH25062"
+        },
+        "Unnamed Team": {
+            "team_lead": "Nitesh S",
+            "ps_id": "SIH25"
+        }
+    }
+}
