@@ -1000,6 +1000,11 @@ function normalizeTeamName(teamName) {
   return specialCases[teamName] || teamName;
 }
 
+// Function to open team image in new tab
+function openTeamImage(imageUrl, teamName) {
+  window.open(imageUrl, '_blank');
+}
+
 // Function to get venue color
 function getVenueColor(venue) {
   switch(venue) {
@@ -1018,25 +1023,25 @@ function getVenueColor(venue) {
 function createTeamCard(team) {
   const venueColor = getVenueColor(team.Venue);
   const imageUrl = `assets/images/teams/${normalizeTeamName(team['TEAM NAME'])}`;
-  
+
   return `
-    <div class="problem-card rounded-2xl p-6 hover-glow cursor-pointer">
+    <div class="problem-card rounded-2xl p-6 hover-glow cursor-pointer" onclick="openTeamImage('${imageUrl}', '${team['TEAM NAME']}')">
       <div class="flex flex-col h-full">
         <div class="flex items-start justify-between mb-4">
           <span class="text-xs font-bold px-3 py-1 rounded-full bg-gradient-to-r ${venueColor} text-white">
             ${team.Venue}
           </span>
         </div>
-        
+
         <h3 class="text-xl font-bold text-white mb-3 leading-tight">${team['TEAM NAME']}</h3>
-        
+
         <div class="flex-1 flex items-center justify-center mb-4">
           <div class="w-32 h-32 rounded-lg overflow-hidden border-3 border-white/30 shadow-lg">
-            <img src="${imageUrl}" alt="${team['TEAM NAME']}" class="w-full h-full object-cover" 
+            <img src="${imageUrl}" alt="${team['TEAM NAME']}" class="w-full h-full object-cover"
                  onerror="this.src='assets/images/logo.png'; this.classList.remove('object-cover'); this.classList.add('object-contain', 'p-4');">
           </div>
         </div>
-        
+
         <div class="text-gray-400 text-sm mb-4">
           <div class="flex items-center mb-2">
             <i class="fas fa-user mr-2 text-purple-400"></i>
