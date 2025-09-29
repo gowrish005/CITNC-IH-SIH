@@ -962,7 +962,7 @@ function normalizeTeamName(teamName) {
     'Infinite Loopers': 'Infinite Loopers.jpg',
     'Aura Tech': 'AuraTech.jpg',
     'Breed Spoilers': 'BREED SPOTTERS.jpg',
-    'SIH 11': 'SIH 11',
+    'SIH 11': 'SIH 11.jpg',
     'Koshin': 'Koshin .jpg',
     'EPICELECTRONS': 'Epicelectrons.jpg',
     'Echoes of Sikkim': 'Echoes of Sikkim.jpg',
