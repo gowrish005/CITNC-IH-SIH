@@ -1,0 +1,50 @@
+{
+    "jury_details": {
+        "SEMINAR HALL": {
+            "jury_1": {
+                "name": "Dr. Rajesh Kumar",
+                "designation": "Professor, Department of Computer Science",
+                "expertise": "AI & Machine Learning"
+            },
+            "jury_2": {
+                "name": "Dr. Priya Sharma",
+                "designation": "Associate Professor, Department of Information Technology",
+                "expertise": "Web Technologies & Cloud Computing"
+            }
+        },
+        "IOT LAB": {
+            "jury_1": {
+                "name": "Dr. Venkatesh Prasad",
+                "designation": "Professor, Department of Electronics & Communication",
+                "expertise": "IoT & Embedded Systems"
+            },
+            "jury_2": {
+                "name": "Dr. Meera Krishnan",
+                "designation": "Associate Professor, Department of Electrical Engineering",
+                "expertise": "Sensors & Automation"
+            }
+        },
+        "STARTUP STUDIO": {
+            "jury_1": {
+                "name": "Dr. Arjun Reddy",
+                "designation": "Professor, Department of Business Administration",
+                "expertise": "Entrepreneurship & Innovation"
+            },
+            "jury_2": {
+                "name": "Dr. Kavita Singh",
+                "designation": "Associate Professor, Department of Management Studies",
+                "expertise": "Startup Ecosystem & Product Development"
+            }
+        }
+    },
+    "evaluation_criteria": {
+        "technical_feasibility": 30,
+        "innovation_creativity": 25,
+        "presentation_delivery": 20,
+        "problem_understanding": 15,
+        "market_potential": 10
+    },
+    "total_teams_selected": 47,
+    "selected_teams": 42,
+    "waiting_list": 5
+}

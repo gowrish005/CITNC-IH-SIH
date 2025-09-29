@@ -92,6 +92,7 @@
                 <!-- Desktop Menu -->
                 <div class="hidden lg:flex items-center space-x-6">
                     <a href="#venue-assignments" class="text-gray-300 hover:text-green-400 transition text-sm whitespace-nowrap">Venue Assignments</a>
+                    <a href="#selected-teams" class="text-gray-300 hover:text-blue-400 transition text-sm whitespace-nowrap">Selected Teams</a>
                     <a href="#problems" class="text-gray-300 hover:text-purple-400 transition text-sm whitespace-nowrap">Problem Statements</a>
                     <a href="#timeline" class="text-gray-300 hover:text-yellow-400 transition text-sm whitespace-nowrap">Timeline</a>
                     <a href="#winners" class="text-gray-300 hover:text-orange-400 transition text-sm whitespace-nowrap">Previous Winners</a>
@@ -110,6 +111,9 @@
                 <div class="flex flex-col space-y-2 pt-4">
                     <a href="#venue-assignments" class="text-gray-300 hover:text-green-400 transition text-base py-3 px-4 rounded-lg hover:bg-green-500/10 min-h-[44px] flex items-center">
                         <i class="fas fa-map-marker-alt mr-3 text-green-400 w-5"></i>Venue Assignments
+                    </a>
+                    <a href="#selected-teams" class="text-gray-300 hover:text-blue-400 transition text-base py-3 px-4 rounded-lg hover:bg-blue-500/10 min-h-[44px] flex items-center">
+                        <i class="fas fa-users mr-3 text-blue-400 w-5"></i>Selected Teams
                     </a>
                     <a href="#problems" class="text-gray-300 hover:text-purple-400 transition text-base py-3 px-4 rounded-lg hover:bg-purple-500/10 min-h-[44px] flex items-center">
                         <i class="fas fa-lightbulb mr-3 text-purple-400 w-5"></i>Problem Statements
@@ -494,6 +498,61 @@
                             <div class="h-4 bg-gray-600 rounded"></div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Teams Section -->
+    <section id="selected-teams" class="py-12 md:py-20 relative z-20 bg-gradient-to-b from-transparent to-slate-900/30">
+        <div class="container mx-auto px-3 sm:px-4">
+            <!-- Section Header -->
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 md:mb-4 px-2">
+                    Selected <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Teams</span>
+                </h2>
+                <p class="text-sm xs:text-base sm:text-lg text-gray-300 max-w-4xl mx-auto px-2 mb-4">
+                    Congratulations to the talented teams who have qualified from our internal hackathon! These teams will now proceed to submit their innovative ideas to the official SIH portal.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+                    <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/30 rounded-full">
+                        <i class="fas fa-heart text-green-400 mr-2"></i>
+                        <span class="text-green-300 font-medium text-sm">We wish all the best to our selected teams!</span>
+                    </div>
+                    <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 border border-blue-400/30 rounded-full">
+                        <i class="fas fa-users text-blue-400 mr-2"></i>
+                        <span class="text-blue-300 font-medium text-sm">47 Teams Selected (42 + 5 Waiting)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Venue Filter Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8 md:mb-12">
+                <button class="venue-filter-btn px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-gray-700/50 text-gray-300 hover:bg-gradient-to-r hover:from-green-500 hover:to-emerald-500 hover:text-white" data-venue="SEMINAR HALL">
+                    Seminar Hall
+                </button>
+                <button class="venue-filter-btn px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-gray-700/50 text-gray-300 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white" data-venue="IOT LAB">
+                    IoT Lab
+                </button>
+                <button class="venue-filter-btn px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-gray-700/50 text-gray-300 hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500 hover:text-white" data-venue="STARTUP STUDIO">
+                    Startup Studio
+                </button>
+            </div>
+
+            <!-- Teams Grid -->
+            <div id="teams-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+                <!-- Team cards will be populated by JavaScript -->
+            </div>
+
+            <!-- Jury Information Section -->
+            <div id="jury-section" class="mt-12 md:mt-16 w-full">
+                <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-6 md:mb-8 text-center">
+                    <i class="fas fa-gavel text-yellow-400 mr-3"></i>
+                    Evaluation <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">Panel</span>
+                </h3>
+
+                <div id="jury-grid" class="w-full flex flex-col lg:flex-row gap-4 lg:gap-6 justify-center items-stretch px-2 sm:px-4">
+                    <!-- Jury cards will be populated by JavaScript -->
                 </div>
             </div>
         </div>

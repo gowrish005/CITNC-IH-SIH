@@ -703,3 +703,149 @@ button:focus, a:focus, input:focus, select:focus, textarea:focus {
     padding-bottom: max(1rem, env(safe-area-inset-bottom));
   }
 }
+
+/* Jury Section Specific Styles */
+.jury-card {
+  backdrop-filter: blur(10px);
+  background: rgba(15, 15, 35, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  min-height: 400px;
+}
+
+.jury-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  background: rgba(15, 15, 35, 0.8);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+
+.jury-member {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.jury-member:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive jury grid adjustments */
+@media (max-width: 640px) {
+  #jury-grid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .jury-card {
+    min-height: 350px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+  #jury-grid {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .jury-card {
+    min-height: 380px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #jury-grid {
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .jury-card {
+    min-height: 400px;
+    flex: 1;
+    width: 0; /* This allows flex to control the width */
+  }
+}
+
+.venue-filter-btn {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.venue-filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.venue-filter-btn.active {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+}
+
+/* Team card animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.team-card {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Responsive adjustments for teams grid */
+@media (max-width: 640px) {
+  #teams-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .team-card {
+    padding: 1rem;
+    min-height: 280px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+  #teams-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .team-card {
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #teams-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .team-card {
+    min-height: 320px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #teams-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1536px) {
+  #teams-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

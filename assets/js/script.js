@@ -826,3 +826,317 @@ function initializeTouchOptimizations() {
     }
   });
 }
+
+
+
+
+
+
+
+// Function to get venue color
+function getVenueColor(venue) {
+  switch(venue) {
+    case 'SEMINAR HALL':
+      return 'from-green-500 to-emerald-600';
+    case 'IOT LAB':
+      return 'from-purple-500 to-pink-600';
+    case 'STARTUP STUDIO':
+      return 'from-orange-500 to-red-600';
+    default:
+      return 'from-blue-500 to-cyan-600';
+  }
+}
+
+
+
+// Function to create jury card
+function createJuryCard(venue, juryData, index) {
+  const venueColor = getVenueColor(venue);
+  
+  // Map venue names to image filenames
+  const venueImageMap = {
+    'SEMINAR HALL': 'SeminarHall.jpg',
+    'IOT LAB': 'IotLab.jpg',
+    'STARTUP STUDIO': 'StartUpStudio.jpg'
+  };
+  
+  const imageUrl = `assets/images/jury/${venueImageMap[venue]}`;
+  const juryTeamNumber = index + 1;
+  
+  return `
+    <div class="jury-card glass-card p-4 sm:p-6 rounded-xl border border-white/10 hover:border-white/20 transition-all duration-300 group hover:scale-105">
+      <div class="text-center">
+        <!-- Jury Team Number - Inside Card -->
+        <div class="jury-team-badge text-2xl font-black text-white mb-6 tracking-wider">
+          JURY TEAM ${juryTeamNumber}
+        </div>
+        
+        <!-- Venue Image - Super Large -->
+        <div class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto mb-4 rounded-xl overflow-hidden border-3 border-white/30 group-hover:border-white/50 transition-all duration-300 shadow-2xl">
+          <img src="${imageUrl}" alt="${venue} Jury Panel" class="w-full h-full object-cover object-center" 
+               onerror="this.src='assets/images/logo.png'; this.classList.remove('object-cover', 'object-center'); this.classList.add('object-contain', 'p-4');">
+        </div>
+        
+       
+        
+        <!-- Evaluation Panel Badge -->
+        <div class="inline-block px-4 py-2 mt-3 rounded-full text-sm font-medium bg-gradient-to-r ${venueColor} text-white">
+          <i class="fas fa-gavel mr-2"></i>
+          ${venue}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Function to render jury information
+function renderJury() {
+  const juryGrid = document.getElementById('jury-grid');
+  if (!juryGrid) return;
+  
+  fetch('assets/data/jury_details.json')
+    .then(response => response.json())
+    .then(data => {
+      const juryHtml = Object.entries(data.jury_details).map(([venue, juryData], index) => 
+        createJuryCard(venue, juryData, index)
+      ).join('');
+      
+      juryGrid.innerHTML = juryHtml;
+      
+      // Add animation to jury cards
+      const juryCards = juryGrid.querySelectorAll('.jury-card');
+      juryCards.forEach((card, index) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        
+        setTimeout(() => {
+          card.style.transition = 'all 0.5s ease-out';
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        }, index * 150);
+      });
+    })
+    .catch(error => {
+      console.error('Error loading jury data:', error);
+    });
+}
+
+// Teams functionality
+let teamsData = [];
+let currentVenueFilter = 'SEMINAR HALL'; // Default to Seminar Hall
+
+// Function to parse CSV data
+function parseCSV(csvText) {
+  const lines = csvText.split('\n');
+  const headers = lines[0].split(',');
+  const teams = [];
+  
+  for (let i = 1; i < lines.length; i++) {
+    const values = lines[i].split(',');
+    if (values.length === headers.length && values[0].trim()) {
+      const team = {};
+      headers.forEach((header, index) => {
+        team[header.trim()] = values[index].trim();
+      });
+      teams.push(team);
+    }
+  }
+  
+  return teams;
+}
+
+// Function to normalize team name for image lookup
+function normalizeTeamName(teamName) {
+  // Handle special cases and normalize team names to match image filenames
+  const specialCases = {
+    'GenNext': 'GenNext.jpg',
+    'Coderz Galaxy': 'Coderz Galaxy.jpg',
+    'Tech Warriors': 'Tech Warriors.jpg', 
+    'Hackonauts': 'Hackonauts.jpg',
+    'DisasterX': 'DisasterX.jpg',
+    'Tesla': 'TESLA.jpg',
+    'SkyWalkers': 'Sky Walkers.jpg',
+    'Circuitronix': 'Circuitronix.jpg',
+    'Sadak Mitra': 'Sadak Mitra.jpg',
+    'Synap Tech': 'SynapTech.jpg',
+    'Infinite Loopers': 'Infinite Loopers.jpg',
+    'Aura Tech': 'AuraTech.jpg',
+    'Breed Spoilers': 'BREED SPOTTERS.jpg',
+    'SIH 11': 'SIH 11',
+    'Koshin': 'Koshin .jpg',
+    'EPICELECTRONS': 'Epicelectrons.jpg',
+    'Echoes of Sikkim': 'Echoes of Sikkim.jpg',
+    'Chainspark': 'CHAINSPARK.jpg',
+    'BackTech': 'Back Tech.jpg',
+    'Syamparani': 'Syamparani.jpg',
+    'Obsidian': 'Obsidian.jpg',
+    'Impactware': 'ImpactWare.jpg',
+    'OutCast': 'OUTCAST.jpg',
+    'ShieldMy Trip': 'Shield My Trip.jpg',
+    'Rising Pheonix': 'Rising Phoenix.jpg',
+    'Onion Vault': 'ONION VAULT.jpg',
+    'Sky Hackers': 'sky hackers.jpg',
+    'Brain Wave solutions': 'Brainwave Solutions.jpg',
+    'Tech Titans': 'Tech titans.jpg',
+    'Binary Bunch': 'Brainy bunch.jpg',
+    'Scratch': 'scratch.jpg',
+    'Code Brigade': 'Code Brigade.png',
+    'Aero Vision': 'Aerovision.jpg',
+    'BlueMarble': 'BlueMarble.jpg',
+    'Neuro Ninjas': 'Neuro Ninjas.jpg',
+    'Hydro Smart': 'Hydro Smart.jpg',
+    'Cultural Impactors': 'Cultural Impactors.jpg',
+    'Innoventures': 'Innoventures.jpg',
+    'Vector Vision': 'Vector Vision.jpg',
+    'Max Matrix': 'MAX MATRIX.jpg',
+    'Igniters': 'Igniters.png',
+    'SmartEd Icons': 'SmartEd Icons.jpg',
+    'Hackathon Hackers': 'Hackathon Hackers.jpg',
+    'Digital Dreamers': 'Digital Dreamers.jpg',
+    'Dropout Shield': 'Dropout sheild.jpg',
+    'NeverMore': 'Nevermore.jpg'
+  };
+  
+  return specialCases[teamName] || teamName;
+}
+
+// Function to get venue color
+function getVenueColor(venue) {
+  switch(venue) {
+    case 'SEMINAR HALL':
+      return 'from-green-500 to-emerald-600';
+    case 'IOT LAB':
+      return 'from-purple-500 to-pink-600';
+    case 'STARTUP STUDIO':
+      return 'from-orange-500 to-red-600';
+    default:
+      return 'from-blue-500 to-cyan-600';
+  }
+}
+
+// Function to create team card
+function createTeamCard(team) {
+  const venueColor = getVenueColor(team.Venue);
+  const imageUrl = `assets/images/teams/${normalizeTeamName(team['TEAM NAME'])}`;
+  
+  return `
+    <div class="problem-card rounded-2xl p-6 hover-glow cursor-pointer">
+      <div class="flex flex-col h-full">
+        <div class="flex items-start justify-between mb-4">
+          <span class="text-xs font-bold px-3 py-1 rounded-full bg-gradient-to-r ${venueColor} text-white">
+            ${team.Venue}
+          </span>
+        </div>
+        
+        <h3 class="text-xl font-bold text-white mb-3 leading-tight">${team['TEAM NAME']}</h3>
+        
+        <div class="flex-1 flex items-center justify-center mb-4">
+          <div class="w-32 h-32 rounded-lg overflow-hidden border-3 border-white/30 shadow-lg">
+            <img src="${imageUrl}" alt="${team['TEAM NAME']}" class="w-full h-full object-cover" 
+                 onerror="this.src='assets/images/logo.png'; this.classList.remove('object-cover'); this.classList.add('object-contain', 'p-4');">
+          </div>
+        </div>
+        
+        <div class="text-gray-400 text-sm mb-4">
+          <div class="flex items-center mb-2">
+            <i class="fas fa-user mr-2 text-purple-400"></i>
+            <span>${team['TEAM LEAD NAME']}</span>
+          </div>
+          <div class="flex items-center">
+            <i class="fas fa-code mr-2 text-blue-400"></i>
+            <span>${team['PS ID']}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Function to render teams
+function renderTeams() {
+  const grid = document.getElementById('teams-grid');
+  if (!grid) return;
+  
+  // Filter teams based on current venue filter
+  let filteredTeams = currentVenueFilter === 'all' 
+    ? teamsData 
+    : teamsData.filter(team => team.Venue === currentVenueFilter);
+  
+  // Sort teams by total score descending
+  const sortedTeams = [...filteredTeams].sort((a, b) => (parseInt(b.TOTAL) || 0) - (parseInt(a.TOTAL) || 0));
+  
+  grid.innerHTML = sortedTeams.map(team => createTeamCard(team)).join('');
+  
+  // Add fade-in animation
+  grid.classList.add("opacity-0");
+  setTimeout(() => {
+    grid.classList.remove("opacity-0");
+    grid.classList.add("opacity-100", "transition-opacity", "duration-500");
+  }, 100);
+}
+
+// Function to initialize venue filter buttons
+function initializeVenueFilters() {
+  const filterBtns = document.querySelectorAll('.venue-filter-btn');
+  
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active button
+      filterBtns.forEach(b => {
+        b.classList.remove('active');
+        b.classList.remove('bg-gradient-to-r', 'from-blue-500', 'to-cyan-500', 'from-green-500', 'to-emerald-500', 'from-purple-500', 'to-pink-500', 'from-orange-500', 'to-red-500');
+        b.classList.add('bg-gray-700/50', 'text-gray-300');
+      });
+      
+      btn.classList.add('active');
+      btn.classList.remove('bg-gray-700/50', 'text-gray-300');
+      btn.classList.add('bg-gradient-to-r', 'text-white', 'shadow-lg');
+      
+      // Apply appropriate gradient based on venue
+      const venue = btn.dataset.venue;
+      switch(venue) {
+        case 'SEMINAR HALL':
+          btn.classList.add('from-green-500', 'to-emerald-500');
+          break;
+        case 'IOT LAB':
+          btn.classList.add('from-purple-500', 'to-pink-500');
+          break;
+        case 'STARTUP STUDIO':
+          btn.classList.add('from-orange-500', 'to-red-500');
+          break;
+      }
+      
+      // Update filter and re-render
+      currentVenueFilter = venue;
+      renderTeams();
+    });
+  });
+  
+  // Set default active button for Seminar Hall
+  const defaultBtn = document.querySelector('.venue-filter-btn[data-venue="SEMINAR HALL"]');
+  if (defaultBtn) {
+    defaultBtn.classList.add('active');
+    defaultBtn.classList.remove('bg-gray-700/50', 'text-gray-300');
+    defaultBtn.classList.add('bg-gradient-to-r', 'from-green-500', 'to-emerald-500', 'text-white', 'shadow-lg');
+  }
+}
+
+// Function to load teams data
+async function loadTeamsData() {
+  try {
+    const response = await fetch('assets/data/SelectedTeams.csv');
+    const csvText = await response.text();
+    teamsData = parseCSV(csvText);
+    
+    initializeVenueFilters();
+    renderTeams();
+  } catch (error) {
+    console.error('Error loading teams data:', error);
+  }
+}
+
+// Initialize jury when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  renderJury();
+  loadTeamsData();
+});
